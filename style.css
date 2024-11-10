@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f8;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0e0303;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Form styles */
+#resumeForm {
+    background-color: 
+    
+    #6e777e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#skills-container input {
+    margin-bottom: 8px;
+}
+
+/* Button styles */
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+     padding: 10px 15px; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Resume output styles */
+#resumeOutput {
+    background-color: #f9fafb;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 30px auto;
+    line-height: 1.6;
+}
+
+#resumeOutput h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #0073e6;
+}
+
+.resume-section {
+    margin-bottom: 20px;
+}
+
+.resume-section p {
+    margin-bottom: 5px;
+}
+
+/* Shareable link styles */
+#shareable-link-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#shareable-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0073e6;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#shareable-link:hover {
+    background-color: #005bb5;
+}

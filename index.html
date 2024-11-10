@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Resume By HK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Updated Dynamic Resume</h1>
+    <form id="resumeForm">
+        <h2>Personal Information</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Profile Picture Input -->
+        <label for="profilePicture">Profile Picture:</label>
+        <input type="file" id="profilePicture" name="profilePicture" accept="image/*"><br><br>
+
+        <h2>Education</h2>
+        <label for="education">Education:</label>
+        <textarea id="education" name="education"></textarea><br><br>
+
+        <h2>Work Experience</h2>
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience"></textarea><br><br>
+
+        <h2>Skills</h2>
+        <div id="skills-container">
+            <label for="skills">Skills:</label><br>
+            <input type="text" id="skill1" name="skill1" placeholder="Enter a skill"><br>
+            <input type="text" id="skill2" name="skill2" placeholder="Enter a skill"><br>
+            <input type="text" id="skill3" name="skill3" placeholder="Enter a skill"><br>
+            <input type="text" id="skill4" name="skill4" placeholder="Enter a skill"><br>
+            <input type="text" id="skill5" name="skill5" placeholder="Enter a skill"><br><br>
+        </div>
+
+        <button type="submit">Generate Resume</button>
+    </form>
+
+    <!-- Generated Resume Section -->
+    <div id="resumeOutput"></div>
+    <br>
+
+    <!-- Shareable link section -->
+    <div id="shareable-link-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>Here is your unique path link to view or edit your resume:</p>
+        <a href="#" id="shareable-link" target="_blank"></a>
+        <br><br>
+        <button id="download-pdf"><b>Download as PDF</b></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
